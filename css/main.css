@@ -1,3 +1,4 @@
+
 html {
   box-sizing: border-box;
   background-color: #000;
@@ -11,7 +12,7 @@ html {
 
 .clock-face {
   height: 300px;
-  margin: 50px auto;
+  margin: 60px auto;
   position: relative;
   width: 300px;
   background: transparent url("../images/clock-face.svg") no-repeat center center;
@@ -19,9 +20,10 @@ html {
 
 .clock-center {
   bottom: calc(50% - 14px);
-  left: calc(50% - 14px);
+  left: calc(50% - 7px);
   position: absolute;
-  width: 28px;
+  width: 14px;
+  transform-origin: 50% calc(100% - 8px);
 }
 
 .hand {
